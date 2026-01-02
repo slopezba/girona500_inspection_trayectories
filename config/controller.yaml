@@ -1,0 +1,33 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  exec_rate_hz: 10.0
+  exec_timeout: 500.0
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      exec_rate_hz: 10.0
+      exec_timeout: 500.0
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      kp_yaw: 0.3
+      kp_z: 0.2
+      max_vx: 0.3
+      max_vz: 0.2
+      max_wz: 0.3
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      state: true
+      type: ''
+      v_nominal: 0.2
+      waypoint_tolerance: 0.5
+    state: []
+  kp_yaw: 0.3
+  kp_z: 0.2
+  max_vx: 0.3
+  max_vz: 0.2
+  max_wz: 0.3
+  v_nominal: 0.2
+  waypoint_tolerance: 0.5
+state: []

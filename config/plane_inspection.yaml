@@ -1,33 +1,4 @@
-inspection_manager:
-
-  # ======================================================
-  # Plane definition (world frame)
-  # ======================================================
-  origin_x: 0.0
-  origin_y: 0.0
-  origin_z: 0.0
-
-  normal_x: 0.0
-  normal_y: 0.0
-  normal_z: 1.0
-
-  u_axis_x: 1.0
-  u_axis_y: 0.0
-  u_axis_z: 0.0
-
-  # ======================================================
-  # Inspection region (anchored at origin)
-  # ======================================================
-  u_amplitude: 2.0        # [m] sweep length along u
-  v_amplitude: 2.0        # [m] sweep length along v
-
-  normal_offset: 1.0     # [m] distance to plane
-
-  number_steps: 20       # discretization / sweep resolution
-
-  # ======================================================
-  # Execution / control defaults
-  # ======================================================
-  timeout: 120.0          # [s]
-  tolerance_distance: 0.3 # [m]
-  surge_velocity: 0.25    # [m/s]
+plane_inspection_node:
+  ros__parameters:
+    world_frame: world_ned
+    robot_frame: girona500/base_link
